@@ -1,0 +1,7 @@
+generate eclipse project by running: 		
+	maven eclipse:eclipse
+package into all-in one jar by running: 	
+	mvn assembly:assembly;
+run the jar: 					
+	java -jar target/class-parse-tool-1.0-SNAPSHOT.jar [one or more jar files directories seperated by space]
+

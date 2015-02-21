@@ -1,3 +1,7 @@
+this code is used to find the method dependencies between jars.
+We know that, classloader will load all jar in a romdam order, but in this way, there will be class conflicts happened online.
+In order to avoid this running period class conflict, I wrote this tool.
+with this tool, you can find your potential error before your app  is running online.
 generate eclipse project by running: 		
 	maven eclipse:eclipse
 package into all-in one jar by running: 	
